@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class JsonDemo3 {
     public static void main(String[] args) throws IOException {
         // Remove before pushing to GitHub
-        String apiKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZWI4OWFhZmUyNWExYWYxNDc1MzYxNGNhMDgzNDJlYyIsIm5iZiI6MTcyNzExMzkxOC43NDQ1MzYsInN1YiI6IjVmMWNiMjk1MGJiMDc2MDAzNGYxMDUzOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.acHT8CQm_aduXQFWO1C_b5W3ZmMEvIR6W8SywIrPrGY";
+        String apiKey = "";
 
         OkHttpClient client = new OkHttpClient();
 
