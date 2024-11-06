@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class JsonDemo3 {
     public static void main(String[] args) throws IOException {
         // Remove before pushing to GitHub
-        String apiKey = "";
+        String apiKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZWI4OWFhZmUyNWExYWYxNDc1MzYxNGNhMDgzNDJlYyIsIm5iZiI6MTcyNzI4NDkzOC41NzY2NTIsInN1YiI6IjVmMWNiMjk1MGJiMDc2MDAzNGYxMDUzOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dAabJltLfdWUrLtcOyQ3-ZocinawDDPmTvynH92D9XY";
 
         OkHttpClient client = new OkHttpClient();
 
@@ -65,7 +65,7 @@ public class JsonDemo3 {
         }
         Genre[] genres = movieDBGenre.genres;
         List<Genre> genresList = Arrays.asList(genres);
-
+        // Sort the array first
         for(Movie movie : movieDBAPI.results) {
             System.out.println("ID: " + movie.id);
             System.out.println("Title: " + movie.title);
